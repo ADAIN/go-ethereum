@@ -23,17 +23,17 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/ADAIN/go-ethereum-genesis-test"
+	"github.com/ADAIN/go-ethereum-genesis-test/accounts/abi/bind"
+	"github.com/ADAIN/go-ethereum-genesis-test/common"
+	"github.com/ADAIN/go-ethereum-genesis-test/common/math"
+	"github.com/ADAIN/go-ethereum-genesis-test/consensus/ethash"
+	"github.com/ADAIN/go-ethereum-genesis-test/core"
+	"github.com/ADAIN/go-ethereum-genesis-test/core/state"
+	"github.com/ADAIN/go-ethereum-genesis-test/core/types"
+	"github.com/ADAIN/go-ethereum-genesis-test/core/vm"
+	"github.com/ADAIN/go-ethereum-genesis-test/ethdb"
+	"github.com/ADAIN/go-ethereum-genesis-test/params"
 )
 
 // This nil assignment ensures compile time that SimulatedBackend implements bind.ContractBackend.

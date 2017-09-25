@@ -23,12 +23,12 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/ADAIN/go-ethereum-genesis-test/common"
+	"github.com/ADAIN/go-ethereum-genesis-test/core/types"
+	"github.com/ADAIN/go-ethereum-genesis-test/crypto"
+	"github.com/ADAIN/go-ethereum-genesis-test/log"
+	"github.com/ADAIN/go-ethereum-genesis-test/rlp"
+	"github.com/ADAIN/go-ethereum-genesis-test/trie"
 )
 
 type revision struct {

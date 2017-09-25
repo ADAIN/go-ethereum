@@ -22,8 +22,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/nat"
+	"github.com/ADAIN/go-ethereum-genesis-test/p2p"
+	"github.com/ADAIN/go-ethereum-genesis-test/p2p/nat"
 )
 
 const (

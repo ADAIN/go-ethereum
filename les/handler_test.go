@@ -20,15 +20,15 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/ADAIN/go-ethereum-genesis-test/common"
+	"github.com/ADAIN/go-ethereum-genesis-test/core"
+	"github.com/ADAIN/go-ethereum-genesis-test/core/types"
+	"github.com/ADAIN/go-ethereum-genesis-test/crypto"
+	"github.com/ADAIN/go-ethereum-genesis-test/eth/downloader"
+	"github.com/ADAIN/go-ethereum-genesis-test/ethdb"
+	"github.com/ADAIN/go-ethereum-genesis-test/p2p"
+	"github.com/ADAIN/go-ethereum-genesis-test/rlp"
+	"github.com/ADAIN/go-ethereum-genesis-test/trie"
 )
 
 func expectResponse(r p2p.MsgReader, msgcode, reqID, bv uint64, data interface{}) error {

@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/ADAIN/go-ethereum-genesis-test/params"
 )
 
 type (

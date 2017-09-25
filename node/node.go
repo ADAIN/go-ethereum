@@ -26,13 +26,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/ADAIN/go-ethereum-genesis-test/accounts"
+	"github.com/ADAIN/go-ethereum-genesis-test/ethdb"
+	"github.com/ADAIN/go-ethereum-genesis-test/event"
+	"github.com/ADAIN/go-ethereum-genesis-test/internal/debug"
+	"github.com/ADAIN/go-ethereum-genesis-test/log"
+	"github.com/ADAIN/go-ethereum-genesis-test/p2p"
+	"github.com/ADAIN/go-ethereum-genesis-test/rpc"
 	"github.com/prometheus/prometheus/util/flock"
 )
 

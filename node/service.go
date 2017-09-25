@@ -19,11 +19,11 @@ package node
 import (
 	"reflect"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/ADAIN/go-ethereum-genesis-test/accounts"
+	"github.com/ADAIN/go-ethereum-genesis-test/ethdb"
+	"github.com/ADAIN/go-ethereum-genesis-test/event"
+	"github.com/ADAIN/go-ethereum-genesis-test/p2p"
+	"github.com/ADAIN/go-ethereum-genesis-test/rpc"
 )
 
 // ServiceContext is a collection of service independent options inherited from

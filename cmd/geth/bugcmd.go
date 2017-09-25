@@ -26,10 +26,10 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/cmd/internal/browser"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/ADAIN/go-ethereum-genesis-test/cmd/internal/browser"
+	"github.com/ADAIN/go-ethereum-genesis-test/params"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
+	"github.com/ADAIN/go-ethereum-genesis-test/cmd/utils"
 	cli "gopkg.in/urfave/cli.v1"
 )
 
@@ -41,7 +41,7 @@ var bugCommand = cli.Command{
 	Category:  "MISCELLANEOUS COMMANDS",
 }
 
-const issueUrl = "https://github.com/ethereum/go-ethereum/issues/new"
+const issueUrl = "https://github.com/ADAIN/go-ethereum-genesis-test/issues/new"
 
 // reportBug reports a bug by opening a new URL to the go-ethereum GH issue
 // tracker and setting default values as the issue body.

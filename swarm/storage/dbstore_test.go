@@ -21,7 +21,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/ADAIN/go-ethereum-genesis-test/common"
 )
 
 func initDbStore(t *testing.T) *DbStore {

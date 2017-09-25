@@ -34,12 +34,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/ecies"
-	"github.com/ethereum/go-ethereum/crypto/secp256k1"
-	"github.com/ethereum/go-ethereum/crypto/sha3"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/ADAIN/go-ethereum-genesis-test/crypto"
+	"github.com/ADAIN/go-ethereum-genesis-test/crypto/ecies"
+	"github.com/ADAIN/go-ethereum-genesis-test/crypto/secp256k1"
+	"github.com/ADAIN/go-ethereum-genesis-test/crypto/sha3"
+	"github.com/ADAIN/go-ethereum-genesis-test/p2p/discover"
+	"github.com/ADAIN/go-ethereum-genesis-test/rlp"
 )
 
 const (

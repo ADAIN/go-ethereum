@@ -21,7 +21,7 @@ package whisperv2
 import (
 	"crypto/ecdsa"
 
-	"github.com/ethereum/go-ethereum/event/filter"
+	"github.com/ADAIN/go-ethereum-genesis-test/event/filter"
 )
 
 // Filter is used to subscribe to specific types of whisper messages.

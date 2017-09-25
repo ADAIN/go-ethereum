@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/ADAIN/go-ethereum-genesis-test/common"
 )
 
 const Version = "1.0"

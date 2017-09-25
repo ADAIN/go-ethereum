@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/ADAIN/go-ethereum-genesis-test/common"
 )
 
 // Hash represents the 32 byte Keccak256 hash of arbitrary data.

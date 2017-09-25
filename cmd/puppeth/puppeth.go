@@ -22,7 +22,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/ADAIN/go-ethereum-genesis-test/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

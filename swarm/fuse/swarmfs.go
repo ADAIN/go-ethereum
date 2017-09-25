@@ -17,7 +17,7 @@
 package fuse
 
 import (
-	"github.com/ethereum/go-ethereum/swarm/api"
+	"github.com/ADAIN/go-ethereum-genesis-test/swarm/api"
 	"sync"
 	"time"
 )
